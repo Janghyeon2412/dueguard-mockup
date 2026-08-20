@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             android.app.NotificationChannel channel = new android.app.NotificationChannel(
                     "due_guard_channel", // 채널 ID
                     "중요 알림",
-                    android.app.NotificationManager.IMPORTANCE_HIGH // 팝업 띄우는 핵심 설정
+                    android.app.NotificationManager.IMPORTANCE_HIGH // 팝업 설정
             );
             android.app.NotificationManager manager = getSystemService(android.app.NotificationManager.class);
             if (manager != null) {
